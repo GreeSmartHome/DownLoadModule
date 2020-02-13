@@ -1,0 +1,16 @@
+PODS:
+  - DownLoadModule (0.1.0)
+
+DEPENDENCIES:
+  - DownLoadModule (from `../`)
+
+EXTERNAL SOURCES:
+  DownLoadModule:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  DownLoadModule: e4622baceb6a8c99d493a2b9af0a9b59cae62fcf
+
+PODFILE CHECKSUM: e2dd19a2f4e9bcd9b81d62bc327a991752df7c3a
+
+COCOAPODS: 1.8.4
