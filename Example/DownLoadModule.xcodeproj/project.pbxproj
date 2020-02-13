@@ -37,7 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		08D0AD6AF37D6C39D5E6FDF6 /* DownLoadModule.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = DownLoadModule.podspec; path = ../DownLoadModule.podspec; sourceTree = "<group>"; };
+		08D0AD6AF37D6C39D5E6FDF6 /* DownLoadModule.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = DownLoadModule.podspec; path = ../DownLoadModule.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		13097FD4BCBC8FB81514F917 /* Pods_DownLoadModule_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DownLoadModule_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3240A20F3C190AE5F4BB07EA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* DownLoadModule_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DownLoadModule_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
