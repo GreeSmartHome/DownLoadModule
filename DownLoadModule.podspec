@@ -31,7 +31,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '8.0'
 
   #s.source_files = 'DownLoadModule/Classes/**/*'
-  s.vendored_frameworks = 'DownLoadModule/Classes/Product/DownLoadModule.framework'
+  s.vendored_frameworks = 'DownLoadModule/Classes/Framework/DownLoadModule.framework'
   # s.resource_bundles = {
   #   'DownLoadModule' => ['DownLoadModule/Assets/*.png']
   # }
