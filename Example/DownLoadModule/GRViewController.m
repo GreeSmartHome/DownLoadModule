@@ -8,7 +8,8 @@
 
 #import "GRViewController.h"
 //#import "GRDownLoader.h"
-#import <GRDownLoaderManager.h>
+//#import <GRDownLoaderManager.h>
+#import <DownLoadModule/GRDownLoaderManager.h>
 
 @interface GRViewController ()
 @property (nonatomic, strong) GRDownLoader *downLoader;

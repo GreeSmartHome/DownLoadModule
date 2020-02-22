@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		22C3BC07240102F40057FD7E /* DownLoadModule.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22C3BC00240102F40057FD7E /* DownLoadModule.framework */; };
+		22C3BC15240103310057FD7E /* GRDownLoader.h in Headers */ = {isa = PBXBuildFile; fileRef = 22C3BC0D240103300057FD7E /* GRDownLoader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		22C3BC16240103310057FD7E /* GRDownLoaderFileTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 22C3BC0E240103300057FD7E /* GRDownLoaderFileTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		22C3BC17240103310057FD7E /* NSString+MD5.h in Headers */ = {isa = PBXBuildFile; fileRef = 22C3BC0F240103300057FD7E /* NSString+MD5.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		22C3BC18240103310057FD7E /* GRDownLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 22C3BC10240103300057FD7E /* GRDownLoader.m */; };
+		22C3BC19240103310057FD7E /* GRDownLoaderManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 22C3BC11240103310057FD7E /* GRDownLoaderManager.m */; };
+		22C3BC1A240103310057FD7E /* GRDownLoaderManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 22C3BC12240103310057FD7E /* GRDownLoaderManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		22C3BC1B240103310057FD7E /* GRDownLoaderFileTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 22C3BC13240103310057FD7E /* GRDownLoaderFileTool.m */; };
+		22C3BC1C240103310057FD7E /* NSString+MD5.m in Sources */ = {isa = PBXBuildFile; fileRef = 22C3BC14240103310057FD7E /* NSString+MD5.m */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -27,6 +36,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		22C3BC05240102F40057FD7E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6003F582195388D10070C39A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 22C3BBFF240102F40057FD7E;
+			remoteInfo = DownLoadModule;
+		};
 		6003F5B3195388D20070C39A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 6003F582195388D10070C39A /* Project object */;
@@ -39,6 +55,16 @@
 /* Begin PBXFileReference section */
 		08D0AD6AF37D6C39D5E6FDF6 /* DownLoadModule.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = DownLoadModule.podspec; path = ../DownLoadModule.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		13097FD4BCBC8FB81514F917 /* Pods_DownLoadModule_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DownLoadModule_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		22C3BC00240102F40057FD7E /* DownLoadModule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DownLoadModule.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		22C3BC03240102F40057FD7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22C3BC0D240103300057FD7E /* GRDownLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GRDownLoader.h; path = ../../DownLoadModule/Classes/GRDownLoader.h; sourceTree = "<group>"; };
+		22C3BC0E240103300057FD7E /* GRDownLoaderFileTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GRDownLoaderFileTool.h; path = ../../DownLoadModule/Classes/GRDownLoaderFileTool.h; sourceTree = "<group>"; };
+		22C3BC0F240103300057FD7E /* NSString+MD5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+MD5.h"; path = "../../DownLoadModule/Classes/NSString+MD5.h"; sourceTree = "<group>"; };
+		22C3BC10240103300057FD7E /* GRDownLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GRDownLoader.m; path = ../../DownLoadModule/Classes/GRDownLoader.m; sourceTree = "<group>"; };
+		22C3BC11240103310057FD7E /* GRDownLoaderManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GRDownLoaderManager.m; path = ../../DownLoadModule/Classes/GRDownLoaderManager.m; sourceTree = "<group>"; };
+		22C3BC12240103310057FD7E /* GRDownLoaderManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GRDownLoaderManager.h; path = ../../DownLoadModule/Classes/GRDownLoaderManager.h; sourceTree = "<group>"; };
+		22C3BC13240103310057FD7E /* GRDownLoaderFileTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GRDownLoaderFileTool.m; path = ../../DownLoadModule/Classes/GRDownLoaderFileTool.m; sourceTree = "<group>"; };
+		22C3BC14240103310057FD7E /* NSString+MD5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+MD5.m"; path = "../../DownLoadModule/Classes/NSString+MD5.m"; sourceTree = "<group>"; };
 		3240A20F3C190AE5F4BB07EA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* DownLoadModule_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DownLoadModule_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -70,6 +96,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		22C3BBFD240102F40057FD7E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6003F587195388D20070C39A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -78,6 +111,7 @@
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
 				E74BB240DD07F22C8AA50F0E /* Pods_DownLoadModule_Example.framework in Frameworks */,
+				22C3BC07240102F40057FD7E /* DownLoadModule.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,12 +129,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		22C3BC01240102F40057FD7E /* DownLoadModule */ = {
+			isa = PBXGroup;
+			children = (
+				22C3BC0D240103300057FD7E /* GRDownLoader.h */,
+				22C3BC10240103300057FD7E /* GRDownLoader.m */,
+				22C3BC0E240103300057FD7E /* GRDownLoaderFileTool.h */,
+				22C3BC13240103310057FD7E /* GRDownLoaderFileTool.m */,
+				22C3BC12240103310057FD7E /* GRDownLoaderManager.h */,
+				22C3BC11240103310057FD7E /* GRDownLoaderManager.m */,
+				22C3BC0F240103300057FD7E /* NSString+MD5.h */,
+				22C3BC14240103310057FD7E /* NSString+MD5.m */,
+				22C3BC03240102F40057FD7E /* Info.plist */,
+			);
+			path = DownLoadModule;
+			sourceTree = "<group>";
+		};
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
 				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
 				6003F593195388D20070C39A /* Example for DownLoadModule */,
 				6003F5B5195388D20070C39A /* Tests */,
+				22C3BC01240102F40057FD7E /* DownLoadModule */,
 				6003F58C195388D20070C39A /* Frameworks */,
 				6003F58B195388D20070C39A /* Products */,
 				B3FD179ECF6B4549127E5DA1 /* Pods */,
@@ -112,6 +163,7 @@
 			children = (
 				6003F58A195388D20070C39A /* DownLoadModule_Example.app */,
 				6003F5AE195388D20070C39A /* DownLoadModule_Tests.xctest */,
+				22C3BC00240102F40057FD7E /* DownLoadModule.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -198,7 +250,39 @@
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		22C3BBFB240102F40057FD7E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22C3BC16240103310057FD7E /* GRDownLoaderFileTool.h in Headers */,
+				22C3BC15240103310057FD7E /* GRDownLoader.h in Headers */,
+				22C3BC1A240103310057FD7E /* GRDownLoaderManager.h in Headers */,
+				22C3BC17240103310057FD7E /* NSString+MD5.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
+		22C3BBFF240102F40057FD7E /* DownLoadModule */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22C3BC0C240102F40057FD7E /* Build configuration list for PBXNativeTarget "DownLoadModule" */;
+			buildPhases = (
+				22C3BBFB240102F40057FD7E /* Headers */,
+				22C3BBFC240102F40057FD7E /* Sources */,
+				22C3BBFD240102F40057FD7E /* Frameworks */,
+				22C3BBFE240102F40057FD7E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DownLoadModule;
+			productName = DownLoadModule;
+			productReference = 22C3BC00240102F40057FD7E /* DownLoadModule.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		6003F589195388D20070C39A /* DownLoadModule_Example */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "DownLoadModule_Example" */;
@@ -212,6 +296,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				22C3BC06240102F40057FD7E /* PBXTargetDependency */,
 			);
 			name = DownLoadModule_Example;
 			productName = DownLoadModule;
@@ -247,6 +332,10 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "1049646716@qq.com";
 				TargetAttributes = {
+					22C3BBFF240102F40057FD7E = {
+						CreatedOnToolsVersion = 11.3.1;
+						ProvisioningStyle = Automatic;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -268,11 +357,19 @@
 			targets = (
 				6003F589195388D20070C39A /* DownLoadModule_Example */,
 				6003F5AD195388D20070C39A /* DownLoadModule_Tests */,
+				22C3BBFF240102F40057FD7E /* DownLoadModule */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		22C3BBFE240102F40057FD7E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6003F588195388D20070C39A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -360,6 +457,17 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		22C3BBFC240102F40057FD7E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22C3BC18240103310057FD7E /* GRDownLoader.m in Sources */,
+				22C3BC1B240103310057FD7E /* GRDownLoaderFileTool.m in Sources */,
+				22C3BC1C240103310057FD7E /* NSString+MD5.m in Sources */,
+				22C3BC19240103310057FD7E /* GRDownLoaderManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6003F586195388D20070C39A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -381,6 +489,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		22C3BC06240102F40057FD7E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 22C3BBFF240102F40057FD7E /* DownLoadModule */;
+			targetProxy = 22C3BC05240102F40057FD7E /* PBXContainerItemProxy */;
+		};
 		6003F5B4195388D20070C39A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 6003F589195388D20070C39A /* DownLoadModule_Example */;
@@ -416,6 +529,101 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		22C3BC0A240102F40057FD7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = DownLoadModule/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gree.greesmarthome.DownLoadModule;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		22C3BC0B240102F40057FD7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = DownLoadModule/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gree.greesmarthome.DownLoadModule;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		6003F5BD195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -497,6 +705,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DownLoadModule/DownLoadModule-Prefix.pch";
 				INFOPLIST_FILE = "DownLoadModule/DownLoadModule-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -513,6 +722,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DownLoadModule/DownLoadModule-Prefix.pch";
 				INFOPLIST_FILE = "DownLoadModule/DownLoadModule-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -570,6 +780,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		22C3BC0C240102F40057FD7E /* Build configuration list for PBXNativeTarget "DownLoadModule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22C3BC0A240102F40057FD7E /* Debug */,
+				22C3BC0B240102F40057FD7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		6003F585195388D10070C39A /* Build configuration list for PBXProject "DownLoadModule" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
