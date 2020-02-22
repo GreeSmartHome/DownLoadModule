@@ -56,7 +56,6 @@
 		08D0AD6AF37D6C39D5E6FDF6 /* DownLoadModule.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = DownLoadModule.podspec; path = ../DownLoadModule.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		13097FD4BCBC8FB81514F917 /* Pods_DownLoadModule_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DownLoadModule_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		22C3BC00240102F40057FD7E /* DownLoadModule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DownLoadModule.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		22C3BC03240102F40057FD7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		22C3BC0D240103300057FD7E /* GRDownLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GRDownLoader.h; path = ../../DownLoadModule/Classes/GRDownLoader.h; sourceTree = "<group>"; };
 		22C3BC0E240103300057FD7E /* GRDownLoaderFileTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GRDownLoaderFileTool.h; path = ../../DownLoadModule/Classes/GRDownLoaderFileTool.h; sourceTree = "<group>"; };
 		22C3BC0F240103300057FD7E /* NSString+MD5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+MD5.h"; path = "../../DownLoadModule/Classes/NSString+MD5.h"; sourceTree = "<group>"; };
@@ -140,7 +139,6 @@
 				22C3BC11240103310057FD7E /* GRDownLoaderManager.m */,
 				22C3BC0F240103300057FD7E /* NSString+MD5.h */,
 				22C3BC14240103310057FD7E /* NSString+MD5.m */,
-				22C3BC03240102F40057FD7E /* Info.plist */,
 			);
 			path = DownLoadModule;
 			sourceTree = "<group>";
