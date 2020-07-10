@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'DownLoadModule'
-  s.version          = '0.1.1'
+  s.version          = '1.0.0'
   s.summary          = '下载库组件'
 
 # This description is used to generate tags and improve search results.
@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 这是一个可以单任务和多任务一起下载的下载器组件
                        DESC
 
-  s.homepage         = 'https://gitee.com/luojiya/DownLoadModule'
+  s.homepage         = 'https://github.com/GreeSmartHome/DownLoadModule'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { '1049646716@qq.com' => '1049646716@qq.com' }
-  s.source           = { :git => 'https://gitee.com/luojiya/DownLoadModule.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/GreeSmartHome/DownLoadModule.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
