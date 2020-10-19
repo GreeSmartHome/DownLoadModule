@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'DownLoadModule'
-  s.version          = '1.0.0'
+  s.version          = '1.0.1'
   s.summary          = '下载库组件'
 
 # This description is used to generate tags and improve search results.
@@ -30,8 +30,8 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '8.0'
 
-  #s.source_files = 'DownLoadModule/Classes/**/*'
-  s.vendored_frameworks = 'DownLoadModule/Framework/DownLoadModule.framework'
+  s.source_files = 'DownLoadModule/Classes/**/*'
+#  s.vendored_frameworks = 'DownLoadModule/Framework/DownLoadModule.framework'
   # s.resource_bundles = {
   #   'DownLoadModule' => ['DownLoadModule/Assets/*.png']
   # }
