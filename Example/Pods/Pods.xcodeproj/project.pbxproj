@@ -7,23 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0588C49ADC5664D7983ED19650E22CA1 /* GRDownLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = A705E00C07A6C72041761782A283549F /* GRDownLoader.m */; };
+		0588C49ADC5664D7983ED19650E22CA1 /* GRDownLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 7682AC331BAE9BB52F0C49D131B4F4D5 /* GRDownLoader.m */; };
 		0CBD858DFAD505F50F6637B1F0659160 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		20B1D85249DDC93EED7DB3A344D37F91 /* Pods-DownLoadModule_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E1BF03516D67C539D9B3C36A7C988E8 /* Pods-DownLoadModule_Example-dummy.m */; };
 		28158D21FB080C165C1E226DEDDDC137 /* Pods-DownLoadModule_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DCEC6F44AE08EA9A29D045CDAACD8C7 /* Pods-DownLoadModule_Tests-dummy.m */; };
-		2B23D0CAA2AA6B09F3B2D5F994E907BD /* NSString+MD5.h in Headers */ = {isa = PBXBuildFile; fileRef = AF03858907EBB473CF495E6BBFA2DBCC /* NSString+MD5.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B23D0CAA2AA6B09F3B2D5F994E907BD /* NSString+MD5.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E1C4A2AE8689301817138733E3C4859 /* NSString+MD5.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		31CBC1E99C978D208592993CAE44A787 /* Pods-DownLoadModule_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F416417FE82143E7CDDA2D1F10C63C1 /* Pods-DownLoadModule_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		42D68C1B4586B2A18A6A909CE0EA7BFD /* DownLoadModule-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F78E16FCB998BDEF83740BCA12E08613 /* DownLoadModule-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		42D68C1B4586B2A18A6A909CE0EA7BFD /* DownLoadModule-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AB897FB7083B989829075FAA7F02A244 /* DownLoadModule-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5AF06912494B89705344817DF6F595A9 /* Pods-DownLoadModule_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8746716C44F7FAE2A27054777C35D6DC /* Pods-DownLoadModule_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5C3F1AF3782DC5414D22379505A0E3C9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		6E85A3952DFF460C8CB882C9AFF92512 /* DownLoadModule-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A0DF8B8B2D78467364F773068379BC6 /* DownLoadModule-dummy.m */; };
+		6E85A3952DFF460C8CB882C9AFF92512 /* DownLoadModule-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 721CECB9F914C51B13014FC54FE0C927 /* DownLoadModule-dummy.m */; };
 		7B7BDD5D6F74A3E2EB9D3077414B8698 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		91E9369C868B7D50B10B2F48825AA0E8 /* GRDownLoaderManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C98B7C51E641BD6EAA47F0FEE1C985D /* GRDownLoaderManager.m */; };
-		BBD3E5F0CF551E4FB3065AF594865637 /* GRDownLoaderFileTool.m in Sources */ = {isa = PBXBuildFile; fileRef = A8F2E33A88C035FA26D823350A0C8FC3 /* GRDownLoaderFileTool.m */; };
-		BEFA0EE40991F2EDD1FC8A029A2EE56D /* GRDownLoader.h in Headers */ = {isa = PBXBuildFile; fileRef = FEE6B4855EF42D5A767BC23FF28BF113 /* GRDownLoader.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CBE65B05B0464DCADABE9C9C9FBE5A31 /* NSString+MD5.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E907ADA1993E304C61E78AE75B64C08 /* NSString+MD5.m */; };
-		E382383FA298CB0A0EF280006D605D17 /* GRDownLoaderManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 1724F98015129F4B710FBA71ED247D2C /* GRDownLoaderManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F59A47EE29A68E92BB6E9FD80B931C33 /* GRDownLoaderFileTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A4E651A238F9AD11C4C8E2D56906A34 /* GRDownLoaderFileTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		91E9369C868B7D50B10B2F48825AA0E8 /* GRDownLoaderManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EB24A7F6343878555D9ADEAE8DB8040 /* GRDownLoaderManager.m */; };
+		BBD3E5F0CF551E4FB3065AF594865637 /* GRDownLoaderFileTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 783D541FF52146EE1C6DD3FF26B44D29 /* GRDownLoaderFileTool.m */; };
+		BEFA0EE40991F2EDD1FC8A029A2EE56D /* GRDownLoader.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FA6B5B1F694D44FA7415E9F23CDBDA9 /* GRDownLoader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CBE65B05B0464DCADABE9C9C9FBE5A31 /* NSString+MD5.m in Sources */ = {isa = PBXBuildFile; fileRef = E28DB3D0DD1A9B22558DDDDC2C7744C6 /* NSString+MD5.m */; };
+		E382383FA298CB0A0EF280006D605D17 /* GRDownLoaderManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 5AE721C1DE4181C374FBB86AA9C4F245 /* GRDownLoaderManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F59A47EE29A68E92BB6E9FD80B931C33 /* GRDownLoaderFileTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B99258329E5F7F22E6FF7606670077D /* GRDownLoaderFileTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,44 +45,45 @@
 
 /* Begin PBXFileReference section */
 		04E396B6369DF392377CE073B17AE0B0 /* Pods_DownLoadModule_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DownLoadModule_Example.framework; path = "Pods-DownLoadModule_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		1724F98015129F4B710FBA71ED247D2C /* GRDownLoaderManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GRDownLoaderManager.h; path = DownLoadModule/Classes/GRDownLoaderManager.h; sourceTree = "<group>"; };
-		195597E67AC259068F3A887B0A34ED46 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		11E6FEBCE442670A48D89C96A249ABBC /* DownLoadModule-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "DownLoadModule-Info.plist"; sourceTree = "<group>"; };
+		16F6AFEABB0BFE3C22D52CB750FA623A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		1CFFF2783F7CDC15F42DFFDC0A2AD683 /* Pods-DownLoadModule_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DownLoadModule_Tests-Info.plist"; sourceTree = "<group>"; };
 		2875DE2BD853937430906255D708745E /* Pods-DownLoadModule_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DownLoadModule_Tests.modulemap"; sourceTree = "<group>"; };
-		2A4E651A238F9AD11C4C8E2D56906A34 /* GRDownLoaderFileTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GRDownLoaderFileTool.h; path = DownLoadModule/Classes/GRDownLoaderFileTool.h; sourceTree = "<group>"; };
-		2E907ADA1993E304C61E78AE75B64C08 /* NSString+MD5.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+MD5.m"; path = "DownLoadModule/Classes/NSString+MD5.m"; sourceTree = "<group>"; };
+		2EB24A7F6343878555D9ADEAE8DB8040 /* GRDownLoaderManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GRDownLoaderManager.m; path = DownLoadModule/Classes/GRDownLoaderManager.m; sourceTree = "<group>"; };
 		2F416417FE82143E7CDDA2D1F10C63C1 /* Pods-DownLoadModule_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DownLoadModule_Tests-umbrella.h"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3ED74D4A5755CF2CB93D7355D3653544 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		3FC2CC17808E0C52942BE2D5F22AF442 /* Pods_DownLoadModule_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DownLoadModule_Tests.framework; path = "Pods-DownLoadModule_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		40ED3AC6B7AC6F13639CEAD351F1834E /* DownLoadModule-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "DownLoadModule-Info.plist"; sourceTree = "<group>"; };
-		4259276FAC948314AE48A0E95C0AF66A /* DownLoadModule.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = DownLoadModule.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		48C0D6A53B79EF42FFD49DCD148D5899 /* Pods-DownLoadModule_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DownLoadModule_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		4C98B7C51E641BD6EAA47F0FEE1C985D /* GRDownLoaderManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GRDownLoaderManager.m; path = DownLoadModule/Classes/GRDownLoaderManager.m; sourceTree = "<group>"; };
 		4DCEC6F44AE08EA9A29D045CDAACD8C7 /* Pods-DownLoadModule_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DownLoadModule_Tests-dummy.m"; sourceTree = "<group>"; };
 		4E1BF03516D67C539D9B3C36A7C988E8 /* Pods-DownLoadModule_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DownLoadModule_Example-dummy.m"; sourceTree = "<group>"; };
 		592943D3F662DD656240CDC8450167EB /* Pods-DownLoadModule_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DownLoadModule_Example.modulemap"; sourceTree = "<group>"; };
+		5AE721C1DE4181C374FBB86AA9C4F245 /* GRDownLoaderManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GRDownLoaderManager.h; path = DownLoadModule/Classes/GRDownLoaderManager.h; sourceTree = "<group>"; };
 		640A06CD6BB5E93F50D770689186AE15 /* Pods-DownLoadModule_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DownLoadModule_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		67576D114C3ED0B7F55A88C27E0DB898 /* DownLoadModule-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DownLoadModule-prefix.pch"; sourceTree = "<group>"; };
+		6B99258329E5F7F22E6FF7606670077D /* GRDownLoaderFileTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GRDownLoaderFileTool.h; path = DownLoadModule/Classes/GRDownLoaderFileTool.h; sourceTree = "<group>"; };
 		6B9C91A95C55AB1D31D0A576346032CE /* Pods-DownLoadModule_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DownLoadModule_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6FA6B5B1F694D44FA7415E9F23CDBDA9 /* GRDownLoader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GRDownLoader.h; path = DownLoadModule/Classes/GRDownLoader.h; sourceTree = "<group>"; };
+		721CECB9F914C51B13014FC54FE0C927 /* DownLoadModule-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DownLoadModule-dummy.m"; sourceTree = "<group>"; };
+		7682AC331BAE9BB52F0C49D131B4F4D5 /* GRDownLoader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GRDownLoader.m; path = DownLoadModule/Classes/GRDownLoader.m; sourceTree = "<group>"; };
+		783D541FF52146EE1C6DD3FF26B44D29 /* GRDownLoaderFileTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GRDownLoaderFileTool.m; path = DownLoadModule/Classes/GRDownLoaderFileTool.m; sourceTree = "<group>"; };
 		787BB9C1C8F8D524BBDD7995EE97D254 /* Pods-DownLoadModule_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DownLoadModule_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		7FE952F158063013BC317513593CBB14 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		866133F2012F8E7B8803005CD11787C3 /* Pods-DownLoadModule_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DownLoadModule_Example.release.xcconfig"; sourceTree = "<group>"; };
 		8746716C44F7FAE2A27054777C35D6DC /* Pods-DownLoadModule_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DownLoadModule_Example-umbrella.h"; sourceTree = "<group>"; };
 		8BBA9EDEF5D10B2169F5F2431A4286D4 /* Pods-DownLoadModule_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DownLoadModule_Example-frameworks.sh"; sourceTree = "<group>"; };
-		9A0DF8B8B2D78467364F773068379BC6 /* DownLoadModule-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DownLoadModule-dummy.m"; sourceTree = "<group>"; };
+		8E1C4A2AE8689301817138733E3C4859 /* NSString+MD5.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+MD5.h"; path = "DownLoadModule/Classes/NSString+MD5.h"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A1CB6D1A4575E95CE71058C5FBE65A91 /* DownLoadModule.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DownLoadModule.modulemap; sourceTree = "<group>"; };
+		A0DD8F5EFFF1F7C96196FC40C58479E5 /* DownLoadModule-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DownLoadModule-prefix.pch"; sourceTree = "<group>"; };
 		A32C8872FA607A86154D79AD14E37A9E /* Pods-DownLoadModule_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DownLoadModule_Example-Info.plist"; sourceTree = "<group>"; };
-		A705E00C07A6C72041761782A283549F /* GRDownLoader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GRDownLoader.m; path = DownLoadModule/Classes/GRDownLoader.m; sourceTree = "<group>"; };
-		A8F2E33A88C035FA26D823350A0C8FC3 /* GRDownLoaderFileTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GRDownLoaderFileTool.m; path = DownLoadModule/Classes/GRDownLoaderFileTool.m; sourceTree = "<group>"; };
-		AF03858907EBB473CF495E6BBFA2DBCC /* NSString+MD5.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+MD5.h"; path = "DownLoadModule/Classes/NSString+MD5.h"; sourceTree = "<group>"; };
+		AB897FB7083B989829075FAA7F02A244 /* DownLoadModule-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DownLoadModule-umbrella.h"; sourceTree = "<group>"; };
+		B73292620AEE950E6E3302EC6E097E89 /* DownLoadModule.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DownLoadModule.debug.xcconfig; sourceTree = "<group>"; };
 		C015D41269D3E7BE1CABDD56556F77C5 /* Pods-DownLoadModule_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DownLoadModule_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		C73E143C5831372C54C43BBAB4F9585D /* Pods-DownLoadModule_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DownLoadModule_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		C8009FE9D1DD30D4FD44EB4702C21315 /* Pods-DownLoadModule_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DownLoadModule_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		D1F4674AC4100ABAC1BEB5F859E87677 /* DownLoadModule.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DownLoadModule.xcconfig; sourceTree = "<group>"; };
+		DAEC096422DB8FB1DD9E123B03FF9C5B /* DownLoadModule.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = DownLoadModule.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		DAF5FE00E6770058F4E54B4ADA175DE9 /* DownLoadModule.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DownLoadModule.release.xcconfig; sourceTree = "<group>"; };
+		E28DB3D0DD1A9B22558DDDDC2C7744C6 /* NSString+MD5.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+MD5.m"; path = "DownLoadModule/Classes/NSString+MD5.m"; sourceTree = "<group>"; };
 		E73C95B6362894EFFA62CCB4339C886B /* DownLoadModule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DownLoadModule.framework; path = DownLoadModule.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F78E16FCB998BDEF83740BCA12E08613 /* DownLoadModule-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DownLoadModule-umbrella.h"; sourceTree = "<group>"; };
-		FEE6B4855EF42D5A767BC23FF28BF113 /* GRDownLoader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GRDownLoader.h; path = DownLoadModule/Classes/GRDownLoader.h; sourceTree = "<group>"; };
+		EEC73D401324961B02C39CD68BF55118 /* DownLoadModule.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DownLoadModule.modulemap; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,42 +114,10 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0209F60398A7DF5048A605D484F7D6EF /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				A1CB6D1A4575E95CE71058C5FBE65A91 /* DownLoadModule.modulemap */,
-				D1F4674AC4100ABAC1BEB5F859E87677 /* DownLoadModule.xcconfig */,
-				9A0DF8B8B2D78467364F773068379BC6 /* DownLoadModule-dummy.m */,
-				40ED3AC6B7AC6F13639CEAD351F1834E /* DownLoadModule-Info.plist */,
-				67576D114C3ED0B7F55A88C27E0DB898 /* DownLoadModule-prefix.pch */,
-				F78E16FCB998BDEF83740BCA12E08613 /* DownLoadModule-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/DownLoadModule";
-			sourceTree = "<group>";
-		};
-		2422A5F790B09B4DDC637E68294C973A /* DownLoadModule */ = {
-			isa = PBXGroup;
-			children = (
-				FEE6B4855EF42D5A767BC23FF28BF113 /* GRDownLoader.h */,
-				A705E00C07A6C72041761782A283549F /* GRDownLoader.m */,
-				2A4E651A238F9AD11C4C8E2D56906A34 /* GRDownLoaderFileTool.h */,
-				A8F2E33A88C035FA26D823350A0C8FC3 /* GRDownLoaderFileTool.m */,
-				1724F98015129F4B710FBA71ED247D2C /* GRDownLoaderManager.h */,
-				4C98B7C51E641BD6EAA47F0FEE1C985D /* GRDownLoaderManager.m */,
-				AF03858907EBB473CF495E6BBFA2DBCC /* NSString+MD5.h */,
-				2E907ADA1993E304C61E78AE75B64C08 /* NSString+MD5.m */,
-				C44F9D9A25147B66CD7F043FE67F11AD /* Pod */,
-				0209F60398A7DF5048A605D484F7D6EF /* Support Files */,
-			);
-			name = DownLoadModule;
-			path = ../..;
-			sourceTree = "<group>";
-		};
 		4B102DC7F05987AF2E9C7F853B0B5554 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				2422A5F790B09B4DDC637E68294C973A /* DownLoadModule */,
+				FED38829F7517556459D302E1BE01C46 /* DownLoadModule */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -195,22 +164,22 @@
 			path = "Target Support Files/Pods-DownLoadModule_Example";
 			sourceTree = "<group>";
 		};
+		B630CC79D306D6A704F6F3A883BADF21 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				DAEC096422DB8FB1DD9E123B03FF9C5B /* DownLoadModule.podspec */,
+				3ED74D4A5755CF2CB93D7355D3653544 /* LICENSE */,
+				16F6AFEABB0BFE3C22D52CB750FA623A /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
 		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
 				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
 			);
 			name = iOS;
-			sourceTree = "<group>";
-		};
-		C44F9D9A25147B66CD7F043FE67F11AD /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				4259276FAC948314AE48A0E95C0AF66A /* DownLoadModule.podspec */,
-				7FE952F158063013BC317513593CBB14 /* LICENSE */,
-				195597E67AC259068F3A887B0A34ED46 /* README.md */,
-			);
-			name = Pod;
 			sourceTree = "<group>";
 		};
 		CC6AD136320801AC99C08D019764D81C /* Products */ = {
@@ -240,6 +209,39 @@
 				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FA30072E46F0B024A71B9BCEF21FA490 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EEC73D401324961B02C39CD68BF55118 /* DownLoadModule.modulemap */,
+				721CECB9F914C51B13014FC54FE0C927 /* DownLoadModule-dummy.m */,
+				11E6FEBCE442670A48D89C96A249ABBC /* DownLoadModule-Info.plist */,
+				A0DD8F5EFFF1F7C96196FC40C58479E5 /* DownLoadModule-prefix.pch */,
+				AB897FB7083B989829075FAA7F02A244 /* DownLoadModule-umbrella.h */,
+				B73292620AEE950E6E3302EC6E097E89 /* DownLoadModule.debug.xcconfig */,
+				DAF5FE00E6770058F4E54B4ADA175DE9 /* DownLoadModule.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/DownLoadModule";
+			sourceTree = "<group>";
+		};
+		FED38829F7517556459D302E1BE01C46 /* DownLoadModule */ = {
+			isa = PBXGroup;
+			children = (
+				6FA6B5B1F694D44FA7415E9F23CDBDA9 /* GRDownLoader.h */,
+				7682AC331BAE9BB52F0C49D131B4F4D5 /* GRDownLoader.m */,
+				6B99258329E5F7F22E6FF7606670077D /* GRDownLoaderFileTool.h */,
+				783D541FF52146EE1C6DD3FF26B44D29 /* GRDownLoaderFileTool.m */,
+				5AE721C1DE4181C374FBB86AA9C4F245 /* GRDownLoaderManager.h */,
+				2EB24A7F6343878555D9ADEAE8DB8040 /* GRDownLoaderManager.m */,
+				8E1C4A2AE8689301817138733E3C4859 /* NSString+MD5.h */,
+				E28DB3D0DD1A9B22558DDDDC2C7744C6 /* NSString+MD5.m */,
+				B630CC79D306D6A704F6F3A883BADF21 /* Pod */,
+				FA30072E46F0B024A71B9BCEF21FA490 /* Support Files */,
+			);
+			name = DownLoadModule;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -432,9 +434,9 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		183FE0945E73263C2270778C3EF7DDF9 /* Release */ = {
+		30D790E38554B96AF640D962D9037EAD /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D1F4674AC4100ABAC1BEB5F859E87677 /* DownLoadModule.xcconfig */;
+			baseConfigurationReference = DAF5FE00E6770058F4E54B4ADA175DE9 /* DownLoadModule.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -622,6 +624,37 @@
 			};
 			name = Debug;
 		};
+		85058D803F5ABB26191E1CFF24686DE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B73292620AEE950E6E3302EC6E097E89 /* DownLoadModule.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DownLoadModule/DownLoadModule-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DownLoadModule/DownLoadModule-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DownLoadModule/DownLoadModule.modulemap";
+				PRODUCT_MODULE_NAME = DownLoadModule;
+				PRODUCT_NAME = DownLoadModule;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		9BC3C4764FF38F90B159F502C88A1C1F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 48C0D6A53B79EF42FFD49DCD148D5899 /* Pods-DownLoadModule_Tests.debug.xcconfig */;
@@ -689,37 +722,6 @@
 			};
 			name = Release;
 		};
-		ACBF61CE8E507DD7AD0A8DB8B2594572 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D1F4674AC4100ABAC1BEB5F859E87677 /* DownLoadModule.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/DownLoadModule/DownLoadModule-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/DownLoadModule/DownLoadModule-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/DownLoadModule/DownLoadModule.modulemap";
-				PRODUCT_MODULE_NAME = DownLoadModule;
-				PRODUCT_NAME = DownLoadModule;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		F443E1A20564DE23CFB3254BFD6DC221 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C73E143C5831372C54C43BBAB4F9585D /* Pods-DownLoadModule_Example.debug.xcconfig */;
@@ -768,8 +770,8 @@
 		1FBC9B57C82119A78D3E6F8FDB9CBF67 /* Build configuration list for PBXNativeTarget "DownLoadModule" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				ACBF61CE8E507DD7AD0A8DB8B2594572 /* Debug */,
-				183FE0945E73263C2270778C3EF7DDF9 /* Release */,
+				85058D803F5ABB26191E1CFF24686DE7 /* Debug */,
+				30D790E38554B96AF640D962D9037EAD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

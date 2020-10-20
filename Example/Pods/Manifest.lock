@@ -1,5 +1,5 @@
 PODS:
-  - DownLoadModule (0.1.0)
+  - DownLoadModule (1.0.1)
 
 DEPENDENCIES:
   - DownLoadModule (from `../`)
@@ -9,8 +9,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  DownLoadModule: e4622baceb6a8c99d493a2b9af0a9b59cae62fcf
+  DownLoadModule: 7eed23bf49a9053a5b109e420eda5350f6817424
 
 PODFILE CHECKSUM: e2dd19a2f4e9bcd9b81d62bc327a991752df7c3a
 
-COCOAPODS: 1.8.4
+COCOAPODS: 1.9.3
